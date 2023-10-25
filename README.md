@@ -7,7 +7,8 @@
 The Iraq-Oncology Teaching Hospital/National Center for Cancer Diseases (IQ-OTH/NCCD) lung cancer dataset was collected in the above-mentioned specialist hospitals over a period of three months in fall 2019. It includes CT scans of patients diagnosed with lung cancer in different stages, as well as healthy subjects. IQ-OTH/NCCD slides were marked by oncologists and radiologists in these two centers. The dataset contains a total of 1190 images representing CT scan slices of 110 cases (see Figure 1). These cases are grouped into three classes: normal, benign, and malignant. of these, 40 cases are diagnosed as malignant; 15 cases diagnosed with benign, and 55 cases classified as normal cases. The CT scans were originally collected in DICOM format. The scanner used is SOMATOM from Siemens. CT protocol includes: 120 kV, slice thickness of 1 mm, with window width ranging from 350 to 1200 HU a and window center from 50 to 600 were used for reading. with breath-hold at full inspiration. All images were de-identified before performing analysis. Written consent was waived by the oversight review board. The study was approved by the institutional review board of participating medical centers. Each scan contains several slices. The number of these slices range from 80 to 200 slices, each of them represents an image of the human chest with different sides and angles. The 110 cases vary in gender, age, educational attainment, area of residence, and living status. Some of them are employees of the Iraqi ministries of Transport and Oil, others are farmers and gainers. Most of them come from places in the middle region of Iraq, particularly, the provinces of Baghdad, Wasit, Diyala, Salahuddin, and Babylon.
 <i>Graphical images count of datasets</i>
 <hr>
-![Alt text](image.png)
+![image](https://github.com/martins0023/lung_cancer_classification_cnn/assets/69491293/8d52cfa5-e16d-4cf1-ad0b-3d2cf36fc672)
+
 <hr>
 
 <h2>Image Size Variations</h2>
@@ -139,17 +140,20 @@ loss	accuracy	val_loss	val_accuracy
 <h4>Visualizing Training Result<h4>
 <b>Training Accuracy</b>
 <hr>
-![Alt text](image-1.png)
+![image](https://github.com/martins0023/lung_cancer_classification_cnn/assets/69491293/ce2595c1-9c1b-4704-9a7a-45f9ef79c9d5)
+
 <hr>
 
 <b>Training Loss</b>
 <hr>
-![Alt text](image-2.png)
+![image](https://github.com/martins0023/lung_cancer_classification_cnn/assets/69491293/279e30d9-416d-4d9a-a2d2-6e876a097f43)
+
 </hr>
 
 <b>Accuracy vs Loss for Model</b>
 <hr>
-![Alt text](image-3.png)
+![image](https://github.com/martins0023/lung_cancer_classification_cnn/assets/69491293/1e864dd4-341d-4093-b486-6c5d524357fe)
+
 </hr>
 
 <h4>Evaluating the Trained Models Prediction with the Test Set</h4>
@@ -202,7 +206,8 @@ weighted avg       0.91      0.91      0.91       396
 
 <h4>Confusion Matrix<h4>
 <hr>
-![Alt text](image-4.png)
+![image](https://github.com/martins0023/lung_cancer_classification_cnn/assets/69491293/887d9a77-fbb2-4380-b2f4-5b52a1c8f7f1)
+
 </hr>
 
 <h4>Evaluation metrics</h4>
@@ -215,7 +220,8 @@ Precision: 	 0.913
 F1-Score: 	 0.914
 
 <hr>
-![Alt text](image-5.png)
+![image](https://github.com/martins0023/lung_cancer_classification_cnn/assets/69491293/6eda6afc-9ee4-4cb9-83b8-d4a44d3f2038)
+
 </hr>
 
 <h4>Conclusion</h4>
